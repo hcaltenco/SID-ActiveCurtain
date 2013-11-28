@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Calibration\boxAlign.cpp">
+      <Filter>src\ofxKCore\src\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Calibration\Calibration.cpp">
+      <Filter>src\ofxKCore\src\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Calibration\CalibrationUtils.cpp">
+      <Filter>src\ofxKCore\src\Calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Communication\TUIO.cpp">
+      <Filter>src\ofxKCore\src\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGui.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiButton.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiColor.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiFiles.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiGlobals.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiKnob.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiMatrix.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiObject.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiPanel.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiPoints.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiRadar.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiScope.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiSlider.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiSwitch.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Controls\ofxGuiXYPad.cpp">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Events\TouchMessenger.cpp">
+      <Filter>src\ofxKCore\src\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Filters\CPUImageFilter.cpp">
+      <Filter>src\ofxKCore\src\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\ofxKCoreVision.cpp">
+      <Filter>src\ofxKCore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Templates\TemplateUtils.cpp">
+      <Filter>src\ofxKCore\src\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Tracking\BlobManager.cpp">
+      <Filter>src\ofxKCore\src\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Tracking\ContourFinder.cpp">
+      <Filter>src\ofxKCore\src\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxKCore\src\Tracking\Tracking.cpp">
+      <Filter>src\ofxKCore\src\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\NetworkingUtils.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\UdpSocket.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtilsWin.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocketWin.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\AudioStream.cpp">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\ImageFrame.cpp">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\ImageStream.cpp">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\Kinect.cpp">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\KinectContext.cpp">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\SkeletonEngine.cpp">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\SkeletonFrame.cpp">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\win32\Event.cpp">
+      <Filter>addons\ofxKinectNui\src\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNui.cpp">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiDraw.cpp">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiPlayer.cpp">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiRecorder.cpp">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiSoundRecorder.cpp">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore">
+      <UniqueIdentifier>{8de59d63-783c-0c9f-1124-280dfaec1a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore\src">
+      <UniqueIdentifier>{92bbcc12-6c26-1683-fb23-1ad28a624876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore\src\Calibration">
+      <UniqueIdentifier>{f07ae7a9-7f95-c7e9-16ef-fffc32149298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore\src\Communication">
+      <UniqueIdentifier>{7115ad86-43a0-d650-91f8-4aa7990b658d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore\src\Controls">
+      <UniqueIdentifier>{ec92faac-1522-83a1-2abd-88f64fd74297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore\src\Events">
+      <UniqueIdentifier>{7d543509-4d3b-5f42-6366-09d69038475d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore\src\Filters">
+      <UniqueIdentifier>{fc1c25aa-7143-f584-4bb5-796de6410efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore\src\Templates">
+      <UniqueIdentifier>{52ff5060-e064-81c5-cf4a-23092654b9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ofxKCore\src\Tracking">
+      <UniqueIdentifier>{c9b9aa4e-d300-b789-413d-dae2f78cac97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834f65-f3a9-211e-73b8-dc8563776aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNetwork">
+      <UniqueIdentifier>{01a15744-29a6-108d-08e9-83a73d797b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNetwork\src">
+      <UniqueIdentifier>{3d1c10c7-8f35-e796-9c70-f5f317cb6d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCv">
+      <UniqueIdentifier>{ffa81411-43b9-bd99-75af-1dc3667656e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCv\src">
+      <UniqueIdentifier>{00de84a0-c30b-9800-5466-ea4027ba1b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc">
+      <UniqueIdentifier>{d91dca33-6e5d-4481-2aec-9fbb1b7355db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\src">
+      <UniqueIdentifier>{b9dd339a-d93d-92a1-0a2f-4b41d690f257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877f005d-13e6-0592-1d97-f2e39d804d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{ccb2ac63-49d2-977c-cfe8-aeadb8be6a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs">
+      <UniqueIdentifier>{9dd44859-dbb9-44e6-b1bd-e4b86172bc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack">
+      <UniqueIdentifier>{f39b92fd-d4bf-4eea-bf95-4fc7eed63d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src">
+      <UniqueIdentifier>{85a55167-8ad2-4fba-8f17-c6e242f63d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src\ip">
+      <UniqueIdentifier>{221104a5-0101-4c68-8db7-084527c524fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src\ip\posix">
+      <UniqueIdentifier>{f5891566-1830-4f05-a0d5-ce4417f4bea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src\ip\win32">
+      <UniqueIdentifier>{71972d28-a9e3-42f5-9227-8f99086c52a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{73b83815-21f3-4c50-b7e5-ec1bb784a2bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
+      <UniqueIdentifier>{ddd5b0c0-316c-4b25-99d4-37764a884aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectNui">
+      <UniqueIdentifier>{b7f05916-2daa-8604-92e8-9a28329cea48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectNui\src">
+      <UniqueIdentifier>{c16604a1-d9f2-e615-4352-057f5170dd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectNui\src\kinect">
+      <UniqueIdentifier>{80873103-fcc5-478c-8c54-4525475d5952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectNui\src\win32">
+      <UniqueIdentifier>{eac0ec7f-2e66-4449-bf63-7c6561492114}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Calibration\boxAlign.h">
+      <Filter>src\ofxKCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Calibration\Calibration.h">
+      <Filter>src\ofxKCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Calibration\CalibrationUtils.h">
+      <Filter>src\ofxKCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Calibration\rect2d.h">
+      <Filter>src\ofxKCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Calibration\vector2d.h">
+      <Filter>src\ofxKCore\src\Calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Communication\TUIO.h">
+      <Filter>src\ofxKCore\src\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\gui.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGui.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiButton.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiColor.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiFiles.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiGlobals.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiKnob.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiMatrix.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiObject.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiPanel.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiPoints.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiRadar.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiScope.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiSlider.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiSwitch.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiTypes.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Controls\ofxGuiXYPad.h">
+      <Filter>src\ofxKCore\src\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Events\TouchMessenger.h">
+      <Filter>src\ofxKCore\src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Filters\CPUImageFilter.h">
+      <Filter>src\ofxKCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Filters\Filters.h">
+      <Filter>src\ofxKCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Filters\ProcessFilters.h">
+      <Filter>src\ofxKCore\src\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\ofxKCore.h">
+      <Filter>src\ofxKCore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\ofxKCoreVision.h">
+      <Filter>src\ofxKCore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Templates\Template.h">
+      <Filter>src\ofxKCore\src\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Templates\TemplateUtils.h">
+      <Filter>src\ofxKCore\src\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Tracking\Blob.h">
+      <Filter>src\ofxKCore\src\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Tracking\BlobManager.h">
+      <Filter>src\ofxKCore\src\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Tracking\ContourFinder.h">
+      <Filter>src\ofxKCore\src\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxKCore\src\Tracking\Tracking.h">
+      <Filter>src\ofxKCore\src\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxNetwork.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxNetworkUtils.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOsc.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscArg.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscSender.h">
+      <Filter>addons\ofxOsc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscException.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
+      <Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\AudioStream.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\ImageFrame.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\ImageStream.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\Kinect.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\KinectContext.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\KinectListener.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\SkeletonEngine.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\SkeletonFrame.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\StaticMediaBuffer.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\WaveFileWriter.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\kinect\nui\WaveOutput.h">
+      <Filter>addons\ofxKinectNui\src\kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\win32\Event.h">
+      <Filter>addons\ofxKinectNui\src\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\win32\SpinLock.h">
+      <Filter>addons\ofxKinectNui\src\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\ofxBase3DVideo.h">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNui.h">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiDraw.h">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiDrawInterface.h">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiPlayer.h">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiRecorder.h">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectNui\src\ofxKinectNuiSoundRecorder.h">
+      <Filter>addons\ofxKinectNui\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

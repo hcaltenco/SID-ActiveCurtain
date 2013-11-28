@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testApp.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxDepthGenerator.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxGestureGenerator.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxHandGenerator.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxHardwareDriver.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxImageGenerator.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxIRGenerator.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxOpenNIContext.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxOpenNIRecorder.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxTrackedHand.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxTrackedUser.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxUserGenerator.cpp">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\Android-Arm\XnPlatformAndroid-Arm.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\ARC\XnOSARC.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\ARC\XnPlatformARC.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\Linux-Arm\XnPlatformLinux-Arm.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\Linux-x86\XnOSLinux-x86.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\Linux-x86\XnPlatformLinux-x86.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\MacOSX\XnPlatformMacOSX.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\Win32\usb100.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\Win32\XnOSWin32.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\Win32\XnPlatformWin32.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\IXnNodeAllocator.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnAlgorithms.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnArray.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnBaseNode.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnBitSet.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnCallback.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnCodecIDs.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnContext.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnCppWrapper.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnDataTypes.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnDerivedCast.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnDump.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnDumpWriters.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnEnumerationErrors.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnEvent.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnFPSCalculator.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnGeneralBuffer.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnHash.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnInternalDefs.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnLicensing.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnList.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnLog.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnLogTypes.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnLogWriterBase.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnMacros.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnModuleCFunctions.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnModuleCppInterface.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnModuleCppRegistratration.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnModuleInterface.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnNode.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnNodeAllocator.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnOpenNI.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnOS.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnOSCpp.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnOSMemory.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnOSStrings.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnPlatform.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnPrdNode.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnPrdNodeInfo.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnPrdNodeInfoList.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnProfiling.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnPropNames.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnQueries.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnQueue.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnScheduler.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnStack.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnStatus.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnStatusCodes.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnStatusRegister.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnStringsHash.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnThreadSafeQueue.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnTypes.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnUSB.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnUSBDevice.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnUtils.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\openni\XnVersion.h">
+      <Filter>addons\ofxOpenNI\include\openni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnCommon.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnV3DVector.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVActivationMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVBroadcaster.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVCCMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVCircle.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVCircleDetector.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVClickableVirtualPlane.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVComplexMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVDepthControl.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVDepthGenerator.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVDepthMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVDeviceControl.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVDeviceFilter.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVDeviceGenerator.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVDeviceMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVDirection.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVFilter.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVFlowRouter.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVGesture.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVHandle.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVHandPointContext.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVImageGenerator.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVImageMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMathCommon.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMessageGenerator.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMessageListener.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMessageMux.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMultiItemHysteresis1D.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMultiItemHysteresis2D.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMultipleHands.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMultiProcessFlowClient.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVMultiProcessFlowServer.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVNite.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVNiteControls.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVNiteDefs.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVNiteFramework.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVNiteLog.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVNiteStatus.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVNiteVersion.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVPointArea.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVPointControl.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVPointDenoiser.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVPointFilter.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVPointMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVPointTracker.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVPushDetector.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSelectableSlider1D.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSelectableSlider2D.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSessionGenerator.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSessionListener.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSessionManager.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSessionMessage.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSlider1D.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSlider2D.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSlider3D.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSteadyDetector.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVSwipeDetector.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVVirtualCoordinates.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\include\nite\XnVWaveDetector.h">
+      <Filter>addons\ofxOpenNI\include\nite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxDepthGenerator.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxGestureGenerator.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxHandGenerator.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxHardwareDriver.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxImageGenerator.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxIRGenerator.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxOpenNI.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxOpenNIContext.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxOpenNIMacros.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxOpenNIRecorder.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxTrackedHand.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxTrackedUser.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxUserGenerator.h">
+      <Filter>addons\ofxOpenNI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h">
+      <Filter>addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="addons">
+      <UniqueIdentifier>{220ee118-ecfa-45f9-ab4e-b03a4b1d2070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenNI">
+      <UniqueIdentifier>{e4b2b859-6c74-43ff-bdc6-9693b383d0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenNI\include">
+      <UniqueIdentifier>{1021e0ec-bcfe-4003-908d-404463d1bc9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenNI\include\nite">
+      <UniqueIdentifier>{e5a3b72f-d838-42da-be22-34c9e22a075b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenNI\include\openni">
+      <UniqueIdentifier>{8d001dd8-3cce-4719-8ec6-3b2e6c18aeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenNI\src">
+      <UniqueIdentifier>{6987e6f5-e30f-4327-90a9-1d5daa3b8918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCv">
+      <UniqueIdentifier>{9d69cce6-968b-4c7a-b82d-ec49ac75db10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCv\src">
+      <UniqueIdentifier>{7327f83d-1191-464b-a3ed-d0cfa2498fba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

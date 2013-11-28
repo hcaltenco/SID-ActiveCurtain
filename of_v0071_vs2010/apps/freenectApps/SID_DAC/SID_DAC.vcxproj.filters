@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="..\..\..\addons\MSACore\src\MSACoreGL.cpp">
+      <Filter>Addons\MSACore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\MSAFluid\src\MSAFluidDrawerBase.cpp">
+      <Filter>Addons\MSAFluid\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\MSAFluid\src\MSAFluidSolver.cpp">
+      <Filter>Addons\MSAFluid\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.cpp">
+      <Filter>Addons\MSAInteractiveObject\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiControl.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiPage.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiToo.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.cpp">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\MSACore\src\cinder-lite\Color.cpp">
+      <Filter>Addons\MSACore\src\cinder-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>Addons\ofxXMLSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>Addons\ofxXMLSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>Addons\ofxXMLSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>Addons\ofxXMLSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msaFluidParticlesApp.cpp" />
+    <ClCompile Include="src\ParticleSystem.cpp">
+      <Filter>Addons\ofxMSAFluidDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>Addons\ofxMSAFluidDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinect.cpp">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinectCalibration.cpp">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinectPlayer.cpp">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinectRecorder.cpp">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxThread\src\ofxThread.cpp">
+      <Filter>Addons\ofxThread\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.cpp">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix4x4.cpp">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxQuaternion.cpp">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\addons\MSACore\src\MSACore-Cinder.h">
+      <Filter>Addons\MSACore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\MSACore-OF.h">
+      <Filter>Addons\MSACore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\MSACore.h">
+      <Filter>Addons\MSACore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\MSACoreCommon.h">
+      <Filter>Addons\MSACore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\MSACoreGL.h">
+      <Filter>Addons\MSACore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\MSACoreMath.h">
+      <Filter>Addons\MSACore\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSAFluid\src\MSAFluid.h">
+      <Filter>Addons\MSAFluid\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSAFluid\src\MSAFluidDrawerBase.h">
+      <Filter>Addons\MSAFluid\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSAFluid\src\MSAFluidDrawerGl-Cinder.h">
+      <Filter>Addons\MSAFluid\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSAFluid\src\MSAFluidDrawerGl-OF.h">
+      <Filter>Addons\MSAFluid\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSAFluid\src\MSAFluidParticleUpdater.h">
+      <Filter>Addons\MSAFluid\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSAFluid\src\MSAFluidSolver.h">
+      <Filter>Addons\MSAFluid\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.h">
+      <Filter>Addons\MSAInteractiveObject\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.h">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiControl.h">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiIncludes.h">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiPage.h">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiToo.h">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.h">
+      <Filter>Addons\ofxSimpleGuiToo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderBase.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderFloat.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderInt.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.h">
+      <Filter>Addons\ofxSimpleGuiToo\src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\cinder-lite\ChanTraits.h">
+      <Filter>Addons\MSACore\src\cinder-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\cinder-lite\CinderMath.h">
+      <Filter>Addons\MSACore\src\cinder-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\cinder-lite\Color.h">
+      <Filter>Addons\MSACore\src\cinder-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\MSACore\src\cinder-lite\Vector.h">
+      <Filter>Addons\MSACore\src\cinder-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>Addons\ofxXMLSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>Addons\ofxXMLSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msaFluidParticlesApp.h" />
+    <ClInclude Include="src\ParticleSystem.h">
+      <Filter>Addons\ofxMSAFluidDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Particle.h">
+      <Filter>Addons\ofxMSAFluidDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h">
+      <Filter>Addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxBase3DVideo.h">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinect.h">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinectCalibration.h">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinectPlayer.h">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinectRecorder.h">
+      <Filter>Addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxThread\src\ofxThread.h">
+      <Filter>Addons\ofxThread\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix4x4.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint2f.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint3f.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint4f.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxQuaternion.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec2f.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec3f.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec4f.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVectorMath.h">
+      <Filter>Addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Addons">
+      <UniqueIdentifier>{74381c6d-4aa2-48df-a18e-7abe5d4da020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\MSACore">
+      <UniqueIdentifier>{c608cc14-ba2a-4349-83b0-2478db38d4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\MSACore\src">
+      <UniqueIdentifier>{3aa3f9b7-33bd-4c50-a80e-aee192f857ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\MSAFluid">
+      <UniqueIdentifier>{0a226418-b344-4dd9-973d-b9e23da84f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\MSAFluid\src">
+      <UniqueIdentifier>{321a83d6-d4aa-4631-b2a2-2afc376c43d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\MSAInteractiveObject">
+      <UniqueIdentifier>{3d5509f7-b277-4888-95ff-aca762558b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\MSAInteractiveObject\src">
+      <UniqueIdentifier>{1d9b1a44-3adc-474e-8956-a366e66914fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxSimpleGuiToo">
+      <UniqueIdentifier>{635549b7-7285-4670-a78a-fdda01fa222c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxSimpleGuiToo\src">
+      <UniqueIdentifier>{87145593-d721-418e-833d-bad5e8f27d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxSimpleGuiToo\src\controls">
+      <UniqueIdentifier>{f3b5e2f6-c38c-4af0-9836-f479343f5268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\MSACore\src\cinder-lite">
+      <UniqueIdentifier>{4fa5bba7-0658-4ca0-8659-351e53c0ba1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxXMLSettings">
+      <UniqueIdentifier>{53fd5bd0-7b56-4cd5-a7c2-c3cd56c99140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxXMLSettings\src">
+      <UniqueIdentifier>{2fc0b738-8761-4eff-96ee-7832bb582cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxXMLSettings\libs">
+      <UniqueIdentifier>{2ed1bf52-f249-47db-ae19-29cb53db7bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxMSAFluidDemo">
+      <UniqueIdentifier>{3b025ec7-364f-4d3d-a93d-922ce82ccb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxOpenCv">
+      <UniqueIdentifier>{fb68562e-149f-44e1-b982-462ecf41fda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxOpenCv\src">
+      <UniqueIdentifier>{8aee0521-a6d5-4d5c-be04-613bf26ae3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxKinect">
+      <UniqueIdentifier>{35f45f5c-d58c-45f6-b2b8-f6c243cd416f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxKinect\src">
+      <UniqueIdentifier>{99d909c8-a6cd-46f5-af21-b180a68bbe1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxThread">
+      <UniqueIdentifier>{917ab851-f16e-4fdd-ab24-f46f401f4051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxThread\src">
+      <UniqueIdentifier>{f3207ccd-937a-48dc-af7f-52cd2cd1d3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxVectorMath">
+      <UniqueIdentifier>{376f57c5-80b8-4c9e-8d22-74ceff2f59ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\ofxVectorMath\src">
+      <UniqueIdentifier>{6999dac5-2425-4fe6-af9e-749722c7a501}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
